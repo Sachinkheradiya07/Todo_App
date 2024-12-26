@@ -52,6 +52,7 @@ li {
 }
 span {
   flex-grow: 1;
+  text-align: left;
 }
 span[style="text-decoration-line: line-through"] {
   text-decoration: line-through;
@@ -88,6 +89,8 @@ p {
   li > span {
     margin-bottom: 10px;
     color: black;
+    flex-grow: 1;
+    text-align: left;
   }
 
   .filter-buttons {

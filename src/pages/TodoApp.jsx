@@ -124,7 +124,7 @@ export default function TodoApp() {
                     todo.completed ? { textDecorationLine: "line-through" } : {}
                   }
                 >
-                  <h3>Task Name: </h3> {todo.task}
+                  <h3> {todo.task} </h3>
                 </span>
                 <button onClick={() => deleteItem(todo.id)}>Delete</button>
                 <button onClick={() => startEditing(todo.id)}>Edit</button>
